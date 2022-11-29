@@ -1,0 +1,6 @@
+export {default as serch} from './Serch/Serch'
+export {default as Card , Total} from './Card/Card'
+export {default as Sections} from './Section/Sections'
+export {default as CategoriZone } from './CategoriZone/CategoriZone'
+export {default as Product} from './Product/Product'
+export {default as FilterZone } from './FilterZone/FilterZone'

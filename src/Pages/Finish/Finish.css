@@ -1,0 +1,25 @@
+.Mydivfinish{
+    border: 1px solid black;
+    margin-left: 6%;
+}
+.formulaire{ 
+    display: none; 
+}
+
+.finelresult{
+    display: none; 
+}
+
+
+
+.toshoww{
+    display: block;
+    margin-left: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    background-color: rgb(251, 227, 184);
+    margin-bottom: 10px;
+    position: absolute;
+    z-index: 999;
+    top:67px
+}

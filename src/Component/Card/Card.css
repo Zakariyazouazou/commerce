@@ -1,0 +1,18 @@
+
+
+@media screen and (max-width:650px){
+    .MyCardSpecial{
+        width: 12em;
+        overflow: hidden;
+        background-color: red;
+    }
+    .ButtonCard{
+       /*  margin-left: 20%;*/
+        margin-bottom: 2px; 
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    
+}

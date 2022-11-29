@@ -1,0 +1,8 @@
+export {default as Home } from './Home/Home'
+export {default as Car_Symbol_Page} from './Car_Symbol_Page/Car_Symbol_Page'
+export {default as All_Product}  from './All_Product/All_Product'
+export {default as Categorie_Page}  from './Categorie_Page/Categorie_Page'
+export {default as One_Product} from './One_Product/One_Product'
+export {default as Panier} from './Panier/Panier'
+export {default as Serch} from './Serch/Serch'
+export {default as Finish} from './Finish/Finish'

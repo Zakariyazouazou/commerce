@@ -1,0 +1,40 @@
+.containerCategorieZoneImage{
+    margin-left: 4.9em;
+}
+
+
+.swiperCategorie {
+    width:100%;
+    display: none;
+  }
+
+
+.CategorieZoneImage{
+    transition: 0.3s ease-in-out;
+    
+}
+.CategorieZoneImage:hover{
+     opacity: 0.8;
+     transform: scale(1.1);
+}
+/* .MinicontainerCategorieZoneImage{
+     
+} */
+
+
+@media screen and (max-width:1000px) {
+    .containerCategorieZoneImage{
+         margin-top: 3.5em;
+         margin-left: 0;
+    }
+    .MinicontainerCategorieZoneImage{
+        display: none;
+    }
+    .swiperBase{
+        display: none;
+    }
+    .swiperCategorie {
+        width:100%;
+        display: block;
+    }
+}

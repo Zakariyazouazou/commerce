@@ -1,0 +1,27 @@
+ .dataItem{
+    
+    margin-left: 0.75px;
+} 
+
+ .Resultserch{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+ }
+
+ .Resultserch::-webkit-scrollbar{
+     display: none;
+ }
+  
+
+
+@media screen and (max-width: 768px) {
+    .MyserchSp{
+        width: 100%;
+    }
+
+
+
+}

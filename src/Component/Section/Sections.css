@@ -1,0 +1,60 @@
+.mySwipere {
+    width:100%;
+    display: none;
+  }
+ 
+  .swiper-slide {
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+  }
+  
+  .ContainerModelcar{
+        background-color: rgb(254, 240, 213);
+        position: relative;
+        width: 15%;
+        height: 50em; 
+        float: left;
+        align-items: center;
+        overflow-x: scroll ;
+        scroll-behavior: smooth;
+        margin-left: 2.8em;
+        margin-right: 20px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+    .ContainerModelcar::-webkit-scrollbar{
+           display:none;
+    } 
+    
+    
+
+@media screen and (max-width: 1000px) {
+    .ContainerModelcar{
+        width: 100%;
+        height: 5em; 
+        align-items: center;
+        overflow: hidden ;
+        scroll-behavior: smooth;
+        margin: 0;
+    }
+    .mySwipere {
+        width:100%;
+        display: block;
+    }
+
+    .ParentOfContainerModelCarMini{
+        display: none;
+    }
+    
+    .CarName{
+        display: none;
+    }
+    .characters_image{
+        width: 4em ;
+        height: 4em;
+        /* margin-right: 10px; */
+    }
+    
+} 

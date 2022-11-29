@@ -1,0 +1,40 @@
+.SmartphoneFooter{
+    display: none;
+   
+}
+
+
+
+
+
+
+@media screen and (max-width:635px){
+     .SmartphoneFooter{
+        display: block;
+        position: fixed;
+        height: 3.5em;
+        bottom: 0;
+        z-index: 99;
+        display: flex;
+        align-items: center;
+        background: orange;
+        justify-content: space-between;
+        width: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        overflow: hidden;
+    
+     }
+     .SmartphoneFooter img{
+        width: 2.75em;
+        transition: 0.3s ease-in-out;
+        
+    }
+    .SmartphoneFooter img:hover{
+        transform: scale(1.1);
+    }
+    .choosethis{
+        border-bottom: 2px solid black;
+        border-top:2px solid black;
+    }
+} 
